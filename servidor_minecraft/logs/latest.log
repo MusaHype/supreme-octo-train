@@ -72,3 +72,10 @@
 [19:01:54] [Server thread/INFO]: Running delayed init tasks
 [19:01:54] [Server thread/INFO]: Done (31.034s)! For help, type "help"
 [19:01:55] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[19:21:57] [User Authenticator #0/INFO]: UUID of player Sxlery is a32225f9-9d21-35b8-89b4-dd521ba9ea7a
+[19:21:58] [Server thread/INFO]: Sxlery joined the game
+[19:21:58] [Server thread/INFO]: Sxlery[/127.240.130.98:47353] logged in with entity id 39 at ([world]2392.647150140158, -33.5, 1831.5384802459214)
+[19:22:40] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[19:22:40] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[19:23:54] [Server thread/INFO]: Sxlery issued server command: /difficulty easy
+[19:23:54] [Server thread/INFO]: [Sxlery: The difficulty has been set to Easy]
