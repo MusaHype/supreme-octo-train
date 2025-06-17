@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "a32225f9-9d21-35b8-89b4-dd521ba9ea7a",
+    "name": "Sxlery",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
