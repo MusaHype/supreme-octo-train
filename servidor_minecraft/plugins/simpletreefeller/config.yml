@@ -1,0 +1,40 @@
+# Break time multipliers (in ticks) for different tool types
+break-times:
+  hand: 10
+  wooden_axe: 8
+  stone_axe: 6
+  iron_axe: 4
+  diamond_axe: 3
+  netherite_axe: 2
+  golden_axe: 5
+
+# Durability settings
+durability:
+  # How many logs before taking 1 durability point
+  logs-per-durability: 2
+  # Minimum durability damage per tree
+  minimum-damage: 1
+
+# Animation settings
+animation:
+  # Enable falling tree animation
+  enabled: false
+  # Animation type: ARMOR_STAND or BLOCK_FALL
+  type: "BLOCK_FALL"
+  # Duration of the falling animation in ticks (20 ticks = 1 second)
+  duration: 20
+  # Direction the tree falls (AWAY_FROM_PLAYER or RANDOM)
+  fall-direction: AWAY_FROM_PLAYER
+  # Smooth animation steps per tick
+  steps-per-tick: 2
+
+# Progress bar settings
+progress-bar:
+  # Enable progress bar display
+  enabled: false
+  # Progress bar style
+  style: "§a■§8□"  # Filled and empty symbols
+  length: 10       # Number of segments
+  # Progress bar format
+  # Use {progress} for the bar, {percent} for percentage
+  format: "§7Chopping... {progress} §7({percent}%)"

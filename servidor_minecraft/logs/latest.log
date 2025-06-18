@@ -1,85 +1,284 @@
-[19:01:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[19:01:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[19:01:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:01:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[19:01:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - AutoTreeChop (1.6.2), dynmap (3.7-SNAPSHOT-968)
-[19:01:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:01:39] [ServerMain/INFO]: Loaded 1370 recipes
-[19:01:39] [ServerMain/INFO]: Loaded 1481 advancements
-[19:01:39] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[19:01:39] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 463.0ms
-[19:01:39] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[19:01:39] [Server thread/INFO]: Loading properties
-[19:01:39] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[19:01:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:01:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:01:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:01:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[19:01:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[19:01:41] [Server thread/INFO]: Default game type: SURVIVAL
-[19:01:41] [Server thread/INFO]: Generating keypair
-[19:01:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:01:41] [Server thread/INFO]: Using epoll channel type
-[19:01:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:01:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:01:42] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[19:01:42] [Server thread/INFO]: [dynmap] version=1.21.4-231-09e9afd (MC: 1.21.4)
-[19:01:43] [Server thread/INFO]: [dynmap] Mod Support API available
-[19:01:43] [Server thread/INFO]: [AutoTreeChop] Loading server plugin AutoTreeChop v1.6.2
-[19:01:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:01:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:01:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:01:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:01:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:01:43] [Server thread/INFO]: Preparing level "world"
-[19:01:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:01:43] [Server thread/INFO]: Preparing spawn area: 0%
-[19:01:44] [Server thread/INFO]: Preparing spawn area: 2%
-[19:01:44] [Server thread/INFO]: Preparing spawn area: 8%
-[19:01:45] [Server thread/INFO]: Time elapsed: 1409 ms
-[19:01:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:01:45] [Server thread/INFO]: Preparing spawn area: 0%
-[19:01:45] [Server thread/INFO]: Time elapsed: 458 ms
-[19:01:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:01:45] [Server thread/INFO]: Preparing spawn area: 0%
-[19:01:45] [Server thread/INFO]: Time elapsed: 180 ms
-[19:01:45] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[19:01:46] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
-[19:01:46] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
-[19:01:46] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
-[19:01:46] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[19:01:51] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[19:01:51] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[19:01:51] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[19:01:51] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[19:01:51] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[19:01:52] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[19:01:52] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
-[19:01:52] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[19:01:52] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[19:01:52] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[19:01:52] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[19:01:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[19:01:52] [Server thread/INFO]: [dynmap] Loaded 23 pending tile renders for world 'world'
-[19:01:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[19:01:52] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[19:01:52] [Server thread/INFO]: [dynmap] Enabled
-[19:01:52] [Server thread/INFO]: [AutoTreeChop] Enabling AutoTreeChop v1.6.2
-[19:01:53] [Server thread/WARN]: [AutoTreeChop] PlaceholderAPI not found. Placeholder expansion for AutoTreeChop will not work.
-[19:01:53] [Server thread/INFO]: [spark] Starting background profiler...
-[19:01:54] [Server thread/INFO]: Done preparing level "world" (11.399s)
-[19:01:54] [Server thread/INFO]: Running delayed init tasks
-[19:01:54] [Server thread/INFO]: Done (31.034s)! For help, type "help"
-[19:01:55] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[19:21:57] [User Authenticator #0/INFO]: UUID of player Sxlery is a32225f9-9d21-35b8-89b4-dd521ba9ea7a
-[19:21:58] [Server thread/INFO]: Sxlery joined the game
-[19:21:58] [Server thread/INFO]: Sxlery[/127.240.130.98:47353] logged in with entity id 39 at ([world]2392.647150140158, -33.5, 1831.5384802459214)
-[19:22:40] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
-[19:22:40] [Server thread/INFO]: [org.milkteamc.autotreechop.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[19:23:54] [Server thread/INFO]: Sxlery issued server command: /difficulty easy
-[19:23:54] [Server thread/INFO]: [Sxlery: The difficulty has been set to Easy]
-[19:34:34] [Server thread/INFO]: Sxlery has made the advancement [Best Friends Forever]
-[19:35:18] [Server thread/INFO]: Sxlery lost connection: Disconnected
-[19:35:18] [Server thread/INFO]: Sxlery left the game
-[19:37:06] [Server thread/INFO]: [WEB] 188.3.5.75: harun amın naıwsl
+[15:34:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[15:34:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[15:34:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:34:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[15:34:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - TreeFeller (1.26.1), dynmap (3.7-SNAPSHOT-968)
+[15:34:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:34:57] [ServerMain/INFO]: Loaded 1370 recipes
+[15:34:57] [ServerMain/INFO]: Loaded 1481 advancements
+[15:34:57] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[15:34:57] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 268.8ms
+[15:34:58] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:34:58] [Server thread/INFO]: Loading properties
+[15:34:58] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[15:34:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:34:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:34:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:34:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:34:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:34:59] [Server thread/INFO]: Default game type: SURVIVAL
+[15:34:59] [Server thread/INFO]: Generating keypair
+[15:34:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:34:59] [Server thread/INFO]: Using epoll channel type
+[15:35:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:35:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:35:00] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[15:35:00] [Server thread/INFO]: [dynmap] version=1.21.4-231-09e9afd (MC: 1.21.4)
+[15:35:00] [Server thread/INFO]: [dynmap] Mod Support API available
+[15:35:00] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.26.1
+[15:35:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:35:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:35:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:35:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:35:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:35:00] [Server thread/INFO]: Preparing level "world"
+[15:35:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:35:01] [Server thread/INFO]: Preparing spawn area: 0%
+[15:35:01] [Server thread/INFO]: Preparing spawn area: 0%
+[15:35:02] [Server thread/INFO]: Preparing spawn area: 4%
+[15:35:02] [Server thread/INFO]: Time elapsed: 1128 ms
+[15:35:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:35:02] [Server thread/INFO]: Preparing spawn area: 0%
+[15:35:02] [Server thread/INFO]: Time elapsed: 313 ms
+[15:35:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:35:02] [Server thread/INFO]: Preparing spawn area: 0%
+[15:35:02] [Server thread/INFO]: Time elapsed: 127 ms
+[15:35:02] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[15:35:03] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[15:35:03] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[15:35:03] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[15:35:03] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[15:35:07] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[15:35:07] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[15:35:07] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[15:35:07] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[15:35:08] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[15:35:08] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[15:35:08] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[15:35:08] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[15:35:08] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[15:35:08] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[15:35:08] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[15:35:08] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[15:35:08] [Server thread/INFO]: [dynmap] Loaded 21 pending tile renders for world 'world'
+[15:35:08] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[15:35:08] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[15:35:08] [Server thread/INFO]: [dynmap] Enabled
+[15:35:08] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.26.1
+[15:35:08] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.26.1) by ThizThizzyDizzy
+[15:35:09] [Server thread/INFO]: [TreeFeller] Server version: 1.21.4-R0.1-SNAPSHOT
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss, pale moss carpet, pale hanging moss]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Grass: [GRASS_BLOCK, DIRT, PODZOL]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Overridables: [AIR, LARGE_FERN, FERN, WATER, SEAGRASS, TALL_SEAGRASS, CAVE_AIR, TALL_GRASS]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {CHERRY_WOOD=CHERRY_LOG, OAK_WOOD=OAK_LOG, SPRUCE_WOOD=SPRUCE_LOG, BIRCH_WOOD=BIRCH_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, JUNGLE_WOOD=JUNGLE_LOG, MANGROVE_WOOD=MANGROVE_LOG, WARPED_HYPHAE=WARPED_STEM, PALE_OAK_WOOD=PALE_OAK_LOG, ACACIA_WOOD=ACACIA_LOG}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Block Conversions: {MUDDY_MANGROVE_ROOTS=MUD}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Effects: []
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[15:35:09] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {auraskills/foraging=1.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {auraskills/foraging=0.0}
+[15:35:09] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: PALE_OAK_LOG, PALE_OAK_WOOD
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: PALE_OAK_LEAVES
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [PALE_OAK_SAPLING]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[15:35:09] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[15:35:09] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[15:35:09] [Server thread/INFO]: [spark] Starting background profiler...
+[15:35:09] [Server thread/INFO]: Done preparing level "world" (9.271s)
+[15:35:09] [Server thread/INFO]: Running delayed init tasks
+[15:35:09] [Server thread/INFO]: Done (23.764s)! For help, type "help"
+[15:35:10] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[15:36:36] [User Authenticator #0/INFO]: UUID of player Sxlery is a32225f9-9d21-35b8-89b4-dd521ba9ea7a
+[15:36:37] [Server thread/INFO]: Sxlery joined the game
+[15:36:37] [Server thread/INFO]: Sxlery[/127.240.130.98:37085] logged in with entity id 39 at ([world]2467.391006278169, 40.0, 2130.8902602936073)
+[15:37:34] [User Authenticator #0/INFO]: UUID of player dextroy_veigar is cb658d2e-73a8-3bd1-9c3a-a5a8ba439b28
+[15:37:34] [Server thread/INFO]: dextroy_veigar joined the game
+[15:37:34] [Server thread/INFO]: dextroy_veigar[/127.147.99.116:50175] logged in with entity id 473 at ([world]2501.865010391186, 64.0, 2205.9497969911363)
+[15:40:48] [Async Chat Thread - #1/INFO]: [Not Secure] <dextroy_veigar> ah herobrine
+[15:40:49] [Async Chat Thread - #1/INFO]: [Not Secure] <dextroy_veigar> ah
+[15:40:51] [Async Chat Thread - #1/INFO]: [Not Secure] <dextroy_veigar> yavaş
+[15:40:53] [Async Chat Thread - #1/INFO]: [Not Secure] <dextroy_veigar> nolur
+[15:40:55] [Async Chat Thread - #1/INFO]: [Not Secure] <dextroy_veigar> allahını
+[15:40:59] [Async Chat Thread - #1/INFO]: [Not Secure] <dextroy_veigar> seversen
+[15:44:33] [Server thread/INFO]: dextroy_veigar lost connection: Disconnected
+[15:44:33] [Server thread/INFO]: dextroy_veigar left the game
+[15:44:38] [User Authenticator #1/INFO]: UUID of player dextroy_veigar is cb658d2e-73a8-3bd1-9c3a-a5a8ba439b28
+[15:44:39] [Server thread/INFO]: dextroy_veigar joined the game
+[15:44:39] [Server thread/INFO]: dextroy_veigar[/127.147.99.116:58321] logged in with entity id 2200 at ([world]2496.546602285991, 63.9375, 2218.9371713345513)
